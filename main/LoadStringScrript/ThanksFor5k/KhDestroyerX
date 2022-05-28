@@ -860,6 +860,8 @@ while true do
 	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1Text, A_2)
 	wait(.001)
 	A_1Text ="Bypasses: Snox Studios and Aplex Studios."
+	wait(.001)
+	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1Text, A_2)
 	wait(0.5)
 	A_1Text:Destroy()
 	wait(0)
